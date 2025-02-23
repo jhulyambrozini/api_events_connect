@@ -42,7 +42,9 @@ Api para eventos criada para fins educacionais de aprendizado durante a NLW Conn
 
 ## rotas da api
 
+--
 **events**
+--
 
 - "/events" -> Método POST
   Criação de um evento. Exemplo de body:
