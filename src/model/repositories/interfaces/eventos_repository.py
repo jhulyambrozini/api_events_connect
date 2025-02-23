@@ -1,5 +1,5 @@
 from src.model.entities.events import Eventos
-import abc from ABC, abstractmethod
+from abc import ABC, abstractmethod
 
 class EventosRepositoryInterface(ABC):
     @abstractmethod
