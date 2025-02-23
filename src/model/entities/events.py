@@ -4,5 +4,5 @@ from src.model.configs.base import Base
 class Eventos(Base):
     __tablename__ =  'eventos'
 
-    id = Column(Integer, prymary_key=True, autoincrement=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
     nome = Column(String, nullable=False)
