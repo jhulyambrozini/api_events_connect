@@ -43,8 +43,9 @@ Api para eventos criada para fins educacionais de aprendizado durante a NLW Conn
 ## rotas da api
 
 **events**
-**"/events"** -> Método POST
-Criação de um evento. Exemplo de body:
+
+- "/events" -> Método POST
+  Criação de um evento. Exemplo de body:
 
 ```
 {
@@ -56,8 +57,10 @@ Criação de um evento. Exemplo de body:
 
 --
 **events_links**
-**"/events_links"** -> Método POST
-Criação de um link para evento. Exemplo de body:
+--
+
+- "/events_links" -> Método POST
+  Criação de um link para evento. Exemplo de body:
 
 ```
 {
@@ -70,8 +73,10 @@ Criação de um link para evento. Exemplo de body:
 
 --
 **subscriber**
-**"/subscriber"** -> Método POST
-Inscrição de alguém em um evento. Exemplo de body:
+--
+
+- "/subscriber" -> Método POST
+  Inscrição de alguém em um evento. Exemplo de body:
 
 ```
 {
@@ -83,8 +88,8 @@ Inscrição de alguém em um evento. Exemplo de body:
 }
 ```
 
-**"/subscriber/link/:link/event/:event_id"** -> Método GET
-Buscar inscritos pelo link e id do evento. Exemplo de resposta:
+- "/subscriber/link/:link/event/:event_id" -> Método GET
+  Buscar inscritos pelo link e id do evento. Exemplo de resposta:
 
 ```
 {
@@ -101,8 +106,8 @@ Buscar inscritos pelo link e id do evento. Exemplo de resposta:
 }
 ```
 
-**"/subscriber/ranking/event/:event_id"** -> Método GET
-Obter um ranking de inscrições por link para um determinado evento. Exemplo de resposta:
+- "/subscriber/ranking/event/:event_id" -> Método GET
+  Obter um ranking de inscrições por link para um determinado evento. Exemplo de resposta:
 
 ```
 {
