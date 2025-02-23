@@ -18,3 +18,12 @@ def test_select():
     inscritos_repo = InscritosRepository()
     res = inscritos_repo.select_subscriber(email, id)
     print(res.nome)
+
+
+def test_ranking():
+    evento_id = 3
+    inscritos_repo = InscritosRepository()
+    resp = inscritos_repo.get_ranking(evento_id)
+
+    for ele in resp:
+        print(f'link: {ele.link} - total de isncritos: {ele.total}')
