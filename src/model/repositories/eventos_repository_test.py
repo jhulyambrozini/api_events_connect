@@ -8,6 +8,7 @@ def test_insert_events():
 
     event_repository.insert(event_name)
 
+@pytest.mark.skip('select in db')
 def test_select_by_name():
     event_name = 'testanto'
     event_repository = EventosRepository()
